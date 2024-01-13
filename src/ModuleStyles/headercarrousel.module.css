@@ -1,0 +1,32 @@
+.box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+}
+
+.color {
+  color: #0c1315;
+}
+
+.sizeH {
+  height: 29rem;
+}
+
+
+.sizeB{
+  height: 27rem;
+}
+
+.btn {
+  background-color: #0c1315;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}

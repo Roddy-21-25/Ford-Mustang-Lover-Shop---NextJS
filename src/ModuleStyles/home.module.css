@@ -1,0 +1,44 @@
+.titleHeader {
+  color: #0c1315;
+}
+
+.bg {
+  background-image: radial-gradient(
+    circle,
+    #252525,
+    #212122,
+    #1d1e1f,
+    #191a1c,
+    #141719,
+    #121618,
+    #101517,
+    #0d1415,
+    #0e1415,
+    #0f1516,
+    #0f1516,
+    #101516
+  );
+}
+
+.border {
+  border-left: solid 3px white;
+  border-right: solid 3px white;
+}
+
+.borderInside {
+  border-bottom: solid 5px #0c131576;
+  transition: all 0.3s ease;
+}
+
+.borderInside:hover {
+  border-bottom: solid 3px #0c131576;
+  cursor: pointer;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.267);
+}
+
+.img {
+  filter: drop-shadow(0px 0px 6px #ffffff7d);
+}

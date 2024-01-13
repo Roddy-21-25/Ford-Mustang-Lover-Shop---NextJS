@@ -1,0 +1,18 @@
+.bg {
+  background-color: #141a1c;
+}
+
+.textColor {
+  color: #fff;
+}
+
+.btn {
+  background-color: #0c1315;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

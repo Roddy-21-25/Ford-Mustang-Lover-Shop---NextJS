@@ -1,0 +1,26 @@
+.box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+}
+
+.bg{
+  background-color: #0c1315;
+}
+
+.textBox {
+  background-color: #0c13151b;
+}
+
+.color {
+  color: #0c1315;
+}
+
+.btn {
+  background-color: #0c1315;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}

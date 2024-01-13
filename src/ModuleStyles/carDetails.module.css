@@ -1,0 +1,12 @@
+.bg {
+  background-color: #141a1c;
+  transition: all 0.3s ease;
+}
+
+.bg:hover {
+  font-size: 1.1em;
+}
+
+.table{
+    border-radius: 12px;
+}

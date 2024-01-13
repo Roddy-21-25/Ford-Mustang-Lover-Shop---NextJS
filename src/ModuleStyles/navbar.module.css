@@ -1,0 +1,63 @@
+.color {
+  color: #d6d6d6;
+}
+
+.color p {
+  transition: all 0.3s ease;
+}
+
+.color p:hover,
+.color link:hover {
+  color: #fff;
+}
+
+.bg {
+  background-color: #141a1c;
+}
+
+/* Estilos base */
+.input {
+  border: 2px solid #0c1315;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #0c1315;
+  color: #d6d6d6;
+  padding: 7px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .input {
+    width: 78%;
+  }
+  .btn {
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .input {
+    width: 77%;
+  }
+  .btn {
+    padding: 8px;
+  }
+}
+
+.linkBox span{
+  transition: all 0.3s ease;
+}
+
+.linkBox span:hover{
+    color: #fff;
+}
+
