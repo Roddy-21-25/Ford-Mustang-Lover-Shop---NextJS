@@ -1,0 +1,55 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model FordMunstangs {
+  id                     Int    @id @default(autoincrement())
+  name                   String
+  PowerSteering          String
+  FrontBrakes            String
+  RearBrakes             String
+  SpecialPackage         String
+  MainImgUrl             String
+  ImageUrls0             String
+  ImageUrls1             String
+  ImageUrls2             String
+  ImageUrls3             String
+  ImageUrls4             String
+  Generation             String
+  Engine                 String
+  ProductionYear         Int
+  EndYear                Int
+  BodyType               String
+  EngineArchitecture     String
+  NumberSeats            Int
+  NumberDoors            Int
+  FuelType               String
+  Power                  String
+  Displacement           String
+  NumberCylinders        Int
+  EngineConfiguration    String
+  FuelInjectionSystem    String
+  Distributor            String
+  EngineOilCapacity      String
+  Length                 String
+  Width                  String
+  Height                 String
+  Wheelbase              String
+  TurningDiameter        String
+  PropulsionArchitecture String
+  Drivetrain             String
+  FrontSuspension        String
+  RearSuspension         String
+  SteeringType           String
+  TiresAndRimSizeSize    String
+  Trim                   String
+  price                  Int
+}
