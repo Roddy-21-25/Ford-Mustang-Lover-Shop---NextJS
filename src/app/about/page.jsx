@@ -24,7 +24,7 @@ function AboutPage() {
                             The Ford Mustang, an iconic American muscle car, made its debut in 1964 and quickly became a symbol of power and performance. Conceived as a stylish and affordable sporty car for the masses, the Mustang captured the hearts of enthusiasts with its sleek design and powerful engine options.
                             <br />
                             <br />
-                            Its introduction marked the birth of the "pony car" class and initiated a new era in automotive history. Over the decades, the Mustang has evolved, showcasing various generations and models, each contributing to its rich legacy.
+                            Its introduction marked the birth of the pony car class and initiated a new era in automotive history. Over the decades, the Mustang has evolved, showcasing various generations and models, each contributing to its rich legacy.
                             <br />
                             <br />
                             From dominating racetracks to making appearances in popular culture, the Ford Mustang has solidified its place as a timeless and enduring symbol of American automotive prowess.
