@@ -12,7 +12,7 @@ export default async function loadCars() {
   const response = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/cars`);
   const data = await response.json();
 
-  return { data: data };
+  return data;
 }
 
 // export async function getServerSideProps() {
