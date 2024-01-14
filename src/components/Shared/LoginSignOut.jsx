@@ -8,7 +8,7 @@ async function LoginSignOut() {
     return (
         <div>
             {
-                session ? <Link className="transition duration-150 hover:text-white ease-in" data-test="signout" href="http://localhost:3000/api/auth/signout/credentials">Sign Out</Link>
+                session ? <Link className="transition duration-150 hover:text-white ease-in" data-test="signout" href={`${process.env.NEXT_PUBLIC_HOST}/api/auth/signout/credentials`}>Sign Out</Link>
                     : <Link className="transition duration-150 hover:text-white ease-in" data-test="admin"  href="/admin">Admin Section</Link>
             }
         </div>
